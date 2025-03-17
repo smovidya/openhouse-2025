@@ -44,7 +44,7 @@ bun install
 Before making any changes, create a new branch for your work. Name the branch according to the feature or fix you're working on. For example:
 
 ```sh
-git checkout -b feature/new-feature
+git checkout -b feat/new-feature
 ```
 
 Or for bug fixes:
