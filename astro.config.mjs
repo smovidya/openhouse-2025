@@ -11,6 +11,5 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   output: "static",
-  base: "https://scichulaopenhouse.com/",
   integrations: [react()]
 });
