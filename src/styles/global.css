@@ -117,6 +117,7 @@
 	--color-yellow: rgba(251, 192, 43, 1);
 	--font-soloistextra: "soloistextra";
 	--font-soloisthalf: "soloisthalf";
+	--font-poppins: "Poppins", "sans-serif";
 }
 
 @layer base {

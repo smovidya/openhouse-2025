@@ -8,12 +8,30 @@ import "../styles/fonts.css";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" /> -->
-    <meta name="generator" content={Astro.generator} />
+    <meta name="generator" content="Astro" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
     <title>SCI Openhouse 2025</title>
   </head>
 
   <body>
-    <slot />
+    <main class="mobile">    
+      <slot />
+    </main>
   </body>
 </html>
+
+<style>
+  .mobile {
+    display: relative;
+    max-width: 448px;
+    margin: 0 auto;
+    min-height: 100vh;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
