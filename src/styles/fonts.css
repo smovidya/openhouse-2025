@@ -1,2 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+	font-family: soloistextra;
+	font-style: normal;
+	font-weight: 200 700;
+	font-display: swap;
+	src: url("font/soloistextraital.ttf") format("truetype");
+}
+@font-face {
+	font-family: soloisthalf;
+	font-style: normal;
+	font-weight: 200 700;
+	font-display: swap;
+	src: url("font/soloisthalf2.ttf") format("truetype");
+}
