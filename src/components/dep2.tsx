@@ -1,13 +1,31 @@
+
+
 export const  Deptest2 = () => {
     return(
-        <div className="flex flex-col max-w-[440px] h-screen items-center rounded-xl bg-cover bg-center" style={{ backgroundImage: "url('/backPlane.png')" }}>
+        <div className="flex flex-col max-w-[440px] h-screen items-center rounded-xl bg-cover bg-center bg-top-100" style={{ backgroundImage: "url('/backPlane.png')" }}>
             <div className="flex flex-col items-center justify-center mt-[84px]">
                 <div className=" flex my-3 items-center justify-center">
                     <img src="navLogo.png" className="h-8"></img>
                 </div>
-                <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <h1 className="text-5xl h-[70px]">Foodtech</h1>
-                    <h1 className="text-3xl h-[35px]">ภาควิชาเทคโนโลยีอาหาร</h1>
+                <div className="flex flex-col items-center justify-center mt-[100px] font-poppins">
+                    <h1 className="text-5xl font-poppins uppercase drop-shadow-[5px_5px_5px_#ffffff]" style={{color:'#19478B'}}>Foodtech</h1>
+                    <h1 className="text-3xl font-poppins h-[35px]" style={{color:'#FFFCE5'}}>ภาควิชาเทคโนโลยีอาหาร</h1>
+                    <h1 className="">
+                        <span className="relative text-5xl font-poppins uppercase text-white texl-bold">
+                            FOODTECH
+                            <span className="text-5xl absolute inset-0 z-10 mt-[9px]" style={{color:'#19478B'}}>FOODTECH</span>
+                        </span>
+                    </h1>
+                    <div className="relative">
+                        {/* เงาสีแรก */}
+                        <h1 className="absolute text-blue-300 text-4xl md:text-5xl font-extrabold tracking-wide">
+                        FOODTECH
+                        </h1>
+                        {/* ตัวอักษรสีหลัก */}
+                        <h1 className="text-white text-4xl md:text-5xl font-extrabold tracking-wide">
+                        FOODTECH
+                        </h1>
+                    </div>
                 </div>
                 <div className="flex mt-[10px] items-center justify-center px-[9px] py-[6px]">
                     <div className="w-[24px]">
