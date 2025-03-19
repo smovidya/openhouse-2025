@@ -2,15 +2,18 @@
 name: 'dep1'
 title: 'foodtech'
 title_thai: 'ภาควิชาเทคโนโลยีอาหาร'
-pic: '/public/mathcom.PNG'
 layout: '@/layouts/departLayout.astro'
-pic1: '/public/mathcom.PNG'
-label1: 'ภาควิชาเทคโนโลยีอาหาร'
-text1: 'ภาควิชาเทคโนโลยีอาหาร'
-pic2: '/public/mathcom.PNG'
-label2: 'ภาควิชาเทคโนโลยีอาหาร'
-text2: 'ภาควิชาเทคโนโลยีอาหาร'
-pic3: '/public/mathcom.PNG'
-label3: 'ภาควิชาเทคโนโลยีอาหาร'
-text3: 'ภาควิชาเทคโนโลยีอาหาร'
+images:
+  - id: 1
+    src: '/public/mathcom.PNG'
+    label: 'Pathway Camp'
+    text: '55th Memory'
+  - id: 2
+    src: '/public/mathcom.PNG'
+    label: 'Biochem Linkage'
+    text: 'Special Content'
+  - id: 3
+    src: '/public/mathcom.PNG'
+    label: 'More Content'
+    text: 'Additional Info'
 ---

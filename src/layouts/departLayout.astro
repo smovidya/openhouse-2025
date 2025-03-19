@@ -1,16 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import Slider from "@/components/slider";
 const {frontmatter} = Astro.props;
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-
-import { Card, CardContent } from "@/components/ui/card"
-import { Image } from "astro:assets";
 ---
 
 <Layout>
@@ -19,21 +10,24 @@ import { Image } from "astro:assets";
                 <div class=" flex my-3 items-center justify-center h-[47px] w-[232px]">
                     <img src="/public/faclogo.png"/>
                 </div>
-                <div class="flex flex-col items-center justify-center mt-[60px] font-poppins">
-                    <h1 class="text-[32px] text-stroke-2 font-soloistextra uppercase text-bold" style={{color:'#19478B'}}>{frontmatter.title}</h1>
+                <div class="flex flex-col items-center justify-center mt-[60px] h-[82px]">
+                    <h1 class="text-[32px] text-stroke-2 font-soloistextra uppercase" style={{color:'#19478B'}}>{frontmatter.title}</h1>
                     <h1 class="text-[21px] font-poppins" style={{color:'#002144'}}>{frontmatter.title_thai}</h1>
                 </div>
 
                 <div class="relative flex justify-center items-center pt-[16px]">
                     <div class="absolute top-4 right-[100px] mt-[16px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
-                    <div class="relative left-[100px] w-[440px] h-[135px] bg-[#dad9d9]  rounded-xl shadow-lg">
+                    <div class="relative left-[70px] w-[440px] h-[135px] bg-[#dad9d9]  rounded-xl shadow-lg">
                       <p class="font-noto text-lg font-medium">
                         <span class="font-bold"></span>  
                       </p>
                     </div>
                 </div>
+                <div class="mt-[16px] h-[223px] w-[397px]">
+                    <Slider images={frontmatter.images}/>
+                </div>
                 <div class="mt-[16px] p-16 bg-[#2c63b5] opacity-37 h-[87px] w-[330px] rounded-l">
-
+                    
                 </div>
                 <div class="grid grid-cols-3 gap-[12px] mt-[16px]">
                     <div class="h-[31px] w-[120px]">
