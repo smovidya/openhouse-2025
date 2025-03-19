@@ -1,0 +1,16 @@
+---
+name: 'dep1'
+title: 'foodtech'
+title_thai: 'ภาควิชาเทคโนโลยีอาหาร'
+pic: '/public/mathcom.PNG'
+layout: '@/layouts/departLayout.astro'
+pic1: '/public/mathcom.PNG'
+label1: 'ภาควิชาเทคโนโลยีอาหาร'
+text1: 'ภาควิชาเทคโนโลยีอาหาร'
+pic2: '/public/mathcom.PNG'
+label2: 'ภาควิชาเทคโนโลยีอาหาร'
+text2: 'ภาควิชาเทคโนโลยีอาหาร'
+pic3: '/public/mathcom.PNG'
+label3: 'ภาควิชาเทคโนโลยีอาหาร'
+text3: 'ภาควิชาเทคโนโลยีอาหาร'
+---
