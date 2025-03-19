@@ -1,8 +1,7 @@
 import { Dot } from "lucide-react";
 
 export const Page2 = () => {
-	const styleMajor = "font-poppins italic text-[#002144] text-xs block text-center";
-    const styleGroup = "font-soloistextra text-sm text-white text-center p-2"
+	const styleMajor = "font-poppins bold text-[#002144] text-sm block text-center inline-block";
 
 	const scienceData = [
 		{
@@ -45,15 +44,15 @@ export const Page2 = () => {
                         src="/page2/SciCU.png"
                         className="w-100"
                     />     
-                <div className="w-full h-1/2">
+                <div className="w-full h-120 bg-blue-300 scroll-auto">
                     {scienceData.map((item) => (
-                        <div className="">
-                        <img src={item.grouping} className=""/>
+                        <div className="flex flex-col h-1/2 pb-3 px-10">
+                        <img src={item.grouping} className=" self-center"/>
                         {item.majors.map((major) => (
-                            <div className="flex flex-row items-center justify-center" key={major}>
-                                <span className="text-sm">•</span>
+                            <div className="flex flex-row bg-pink-200/50" key={major}>
+                                {/* <span className="text-sm">•</span> */}
                                 <div className={`${styleMajor}`}>{major}</div>
-                            </div>
+                                <span className="flex-grow border-b border-blue-900 ml-2"></span>                            </div>
                             ))}
                         </div>
                         ))}
