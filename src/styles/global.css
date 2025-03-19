@@ -115,6 +115,7 @@
 	--font-museo: "MuseoModerno", "serif";
 	--font-noto: "Noto Sans Thai Looped", "sans-serif";
 	--color-yellow: rgba(251, 192, 43, 1);
+	--bg-departPlane: url('/backPlane.png');
 }
 
 @layer base {
