@@ -5,7 +5,7 @@ title_thai: 'ภาควิชาพฤกษศาสตร์'
 ig: 'https://www.instagram.com/chulabotany?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/BotGeneChula'
 web: 'https://www.botany.sc.chula.ac.th/'
-้head: '/public/bg4.PNG'
+head: '/public/bg4.PNG'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
