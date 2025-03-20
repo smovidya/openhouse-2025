@@ -38,7 +38,7 @@ export const Page2 = () => {
 
 	return (
 		<div className="bg-[url(/page2/new_bg_2.webp)] bg-cover min-h-screen">
-            <div className="h-35"></div>
+            <div className="h-37"></div>
             <div className="flex flex-col justify-center items-center">
                 <img
                         src="/page2/SciCU.png"
