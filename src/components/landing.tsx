@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => {
 	return (
-		<a href="">
+		<a href="/major">
 			<div className="flex flex-col relative justify-center items-center p-6 max-w-md mx-auto my-auto bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md min-h-screen">
 				<div className="flex flex-col items-center gap-2">
 					<img className="w-[125.93px] h-[40px]" src="assets/logo.webp"></img>
