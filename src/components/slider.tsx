@@ -12,49 +12,61 @@ interface SliderProps {
 }
 
 
-export default function Slider({ images }: SliderProps) {
+export default function ImageSlider({images}:SliderProps) {
 	const [activeTab, setActiveTab] = useState(1);
+	const activeContent = images.find((item) => item.id === activeTab)?.text;
 
 	return (
-		<div className="flex items-end gap-4 w-full max-w-md h-56 px-6 py-2">
-			{images.map((item) => (
-				<button
-					type="button"
-					key={item.id}
-					onClick={() => setActiveTab(item.id)}
-					className={`h-full relative overflow-hidden transition-all duration-500 ease-in-out ${
-						activeTab === item.id
-							? "flex-grow basis-3/4 rounded-xl" // Expanded state
-							: "flex-shrink basis-12 rounded-4xl" // Collapsed state
-					}`}
-				>
-					{/* Image Content */}
-					<div className="absolute inset-0 w-full h-full">
-						<img
-							alt="content"
-							src={item.src}
-							className="w-full h-full object-cover bg-gray-700"
-						/>
-						<div className="absolute bottom-0 left-0 right-0 w-full bg-gray-300 flex justtify-start items-center p-4">
-							<p className="text-black text-xs font-semibold">{item.text}</p>
-						</div>
-					</div>
-
-					{/* Collapsed State Label */}
+		<div className="relative w-full max-w-md">
+			<div className="flex items-end gap-4 h-56 px-6 py-2">
+				{images.map((item) => (
 					<div
-						className={`absolute inset-0 flex flex-col items-center transition-opacity duration-300 ${
-							activeTab === item.id ? "opacity-0" : "opacity-100"
-						} bg-navyblue`}
+						key={item.id}
+						className={`h-full transition-all duration-500 ease-in-out relative ${
+							activeTab === item.id
+								? "flex-grow basis-3/4"
+								: "flex-shrink basis-12"
+						}`}
 					>
-						<span className="text-white font-bold text-sm absolute rotate-270 top-1/3 w-40">
-							{item.label}
-						</span>
-						<span className="text-navyblue font-bold text-sm rounded-full w-8 h-8 bg-white absolute bottom-2 flex justify-center items-center">
-							{item.id}
-						</span>
+						<button
+							type="button"
+							onClick={() => setActiveTab(item.id)}
+							className={`h-full w-full relative overflow-hidden transition-all duration-500 ease-in-out ${
+								activeTab === item.id ? "rounded-xl" : "rounded-4xl"
+							}`}
+						>
+							<div className="absolute inset-0 w-full h-full">
+								<img
+									alt="content"
+									src={item.src}
+									className="w-full h-full object-cover bg-gray-700"
+								/>
+								<div className="absolute bottom-0 left-0 right-0 w-full flex justify-start items-center p-4">
+									<p className="text-white text-xs font-semibold">
+										{item.label}
+									</p>
+								</div>
+							</div>
+
+							<div
+								className={`absolute inset-0 flex flex-col items-center transition-opacity duration-300 ${
+									activeTab === item.id ? "opacity-0" : "opacity-100"
+								} bg-navyblue`}
+							>
+								<span className="text-white font-bold text-sm absolute rotate-270 top-1/3 w-40">
+									{item.label}
+								</span>
+								<span className="text-navyblue font-bold text-sm rounded-full w-8 h-8 bg-white absolute bottom-2 flex justify-center items-center">
+									{item.id}
+								</span>
+							</div>
+						</button>
 					</div>
-				</button>
-			))}
+				))}
+			</div>
+			<div className="absolute mx-6 mt-2 h-[87px] w-[340px] bg-gray-200 rounded-xl border border-[#0157b6]">
+				<p className="text-l h-[87px] m-2 text-[#0157b6]">{activeContent}</p>
+			</div>
 		</div>
 	);
 }

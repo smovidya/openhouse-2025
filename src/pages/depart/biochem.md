@@ -1,0 +1,24 @@
+---
+name: 'biochem'
+title: 'biochem'
+title_thai: 'ภาควิชาชีวเคมี'
+ig: 'https://www.instagram.com/biochem_chula/?utm_source=ig_web_button_share_sheet'
+fac: 'https://www.facebook.com/BCSCCU'
+web: 'https://www.bc.sc.chula.ac.th'
+head: '/public/biochem4.PNG'
+layout: '@/layouts/departLayout.astro'
+images:
+  - id: 1
+    src: '/public/biochem1.PNG'
+    label: 'Biochem Linkage'
+    text: 'ในทุก ๆ ปี ภาควิชาชีวเคมีจะมีการจัดกิจกรรมงานกีฬาเครือข่ายชีวเคมีร่วมกันกับ ภาควิชาชีวเคมีจากมหาวิทยาลัยอื่น ๆ '
+  - id: 2
+    src: '/public/biochem2.PNG'
+    label: 'Pathway Camp'
+    text: 'กิจกรรมค่ายแนะแนว ที่จัดขึ้นเพื่อให้น้อง ๆ ที่เข้าร่วม ได้เรียนรู้เกี่ยวกับชีวเคมี และได้สัมผัสถึงบรรยากาศในภาควิชามากยิ่งขึ้น'
+  - id: 3
+    src: '/public/biochem3.PNG'
+    label: 'BC Memories'
+    text: 'กิจกรรม BC memories จะจัดขึ้นเป็นประจำ ทุก ๆ 5 ปีเพื่อให้รุ่นพี่-รุ่นน้องชีวเคมีได้กลับมาพบกัน '
+---
+ภาควิชาชีวเคมี เป็นภาควิชาที่ศึกษาเกี่ยวกับปฏิกิริยาเคมีในสิ่งมีชีวิต โดยจะศึกษาทั้งโครงสร้างและหน้าที่ของสารชีวโมเลกุล ซึ่งเป็นการประยุกต์ใช้ความรู้ในด้านต่าง ๆ เพื่อทำความเข้าใจกระบวนการทางชีวภาพในระดับโมเลกุล
