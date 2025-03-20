@@ -37,14 +37,14 @@ export const Page2 = () => {
 	];
 
 	return (
-		<div className="bg-[url(/page2/new_bg_2.webp)] bg-cover min-h-screen">
+		<div className="bg-[url(/page2/new_bg_2.webp)] bg-cover min-h-screen h-full">
             <div className="h-37"></div>
             <div className="flex flex-col justify-center items-center">
                 <img
                         src="/page2/SciCU.png"
                         className="w-100 mb-3"
                 />     
-                <div className="w-full h-130 overflow-y-auto">
+                <div className="w-full h-130 overflow-y-auto mb-3">
                     {scienceData.map((item) => (
                         <div className="flex flex-col pb-3 px-10 py-3">
                         <img src={item.grouping} className=" self-center mb-2"/>
@@ -56,6 +56,8 @@ export const Page2 = () => {
                             </div>
                             ))}
                         </div>
+
+                        
                         ))}
                 </div>
                 <img 
