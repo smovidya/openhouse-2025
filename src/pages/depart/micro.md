@@ -5,19 +5,19 @@ title_thai: 'ภาควิชาจุลชีววิทยา'
 ig: 'https://www.instagram.com/microchulastories/?utm_source=ig_web_button_share_sheet'
 fac: 'https://www.facebook.com/microbiologysciencechula'
 web: 'https://www.micro.sc.chula.ac.th/'
-head: '/public/micro4.PNG'
+head: '/micro4.PNG'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
-    src: '/public/micro1.PNG'
+    src: '/micro1.PNG'
     label: 'Microbiology of Food'
     text: 'การออกภาคสนามของวิชา Microbiology of Food'
   - id: 2
-    src: '/public/micro2.PNG'
+    src: '/micro2.PNG'
     label: '50th Anniversary'
     text: 'บรรยากาศงานทำบุญภาคครบรอบ 50 ปี และพิธีเปิดห้องสอนปฏิบัติการ ประกิตติ์สิน สีหนนทน์'
   - id: 3
-    src: '/public/micro3.PNG'
+    src: '/micro3.PNG'
     label: 'Make Yogurt'
     text: 'นอกจากการเรียนบรรยายแล้ว เรายังได้ลงมือทำโยเกิร์ตกินเองอีกด้วย'
 ---

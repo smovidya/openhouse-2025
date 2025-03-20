@@ -5,19 +5,19 @@ title_thai: 'ภาควิชาพฤกษศาสตร์'
 ig: 'https://www.instagram.com/chulabotany?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/BotGeneChula'
 web: 'https://www.botany.sc.chula.ac.th/'
-head: '/public/bg4.PNG'
+head: '/bg4.PNG'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
-    src: '/public/bg1.PNG'
+    src: '/bg1.PNG'
     label: 'พิพิธภัณฑ์พืช'
     text: 'แหล่งรวบรวมตัวอย่างพืชเพื่อการศึกษา'
   - id: 2
-    src: '/public/bg2.PNG'
+    src: '/bg2.PNG'
     label: 'ห้องปฏิบัติการ'
     text: 'สถานที่ทำการทดลองและวิจัยเกี่ยวกับพืช'
   - id: 3
-    src: '/public/bg3.PNG'
+    src: '/bg3.PNG'
     label: 'สวนพฤกษศาสตร์'
     text: 'พื้นที่แสดงพันธุ์พืชหลากหลายชนิด'
 ---

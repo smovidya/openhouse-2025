@@ -4,20 +4,20 @@ title: 'mathcom'
 title_thai: 'ภาควิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์'
 ig: 'https://www.instagram.com/mathcom_cu/'
 fac: 'https://www.facebook.com/MathComSciCU'
-head: '/public/cs4.PNG'
+head: '/cs4.PNG'
 web: 'https://math.sc.chula.ac.th/th/'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
-    src: '/public/cs1.PNG'
+    src: '/cs1.PNG'
     label: 'First Meet'
     text: 'MathCom First Meet ! พบปะกันครั้งแรก พร้อมกับกิจกรรมมากมาย เพื่อเสริมสร้างความสัมพันธ์กับคนในภาค'
   - id: 2
-    src: '/public/cs2.PNG'
+    src: '/cs2.PNG'
     label: 'Math Trip'
     text: 'Math Trip ทริปสานสัมพันธ์พี่น้องชาว Math ประจําปี'
   - id: 3
-    src: '/public/cs3.PNG'
+    src: '/cs3.PNG'
     label: 'Dev Club'
     text: 'สาขาวิทยาการคอมพิวเตอร์มี Dev Club สำหรับผู้ที่ต้องการพัฒนา Skill การเขียนโค้ด ตั้งแต่พื้นฐานจนสร้างโปรเจกต์เองได้  '
 ---

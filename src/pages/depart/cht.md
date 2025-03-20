@@ -5,19 +5,19 @@ title_thai: 'ภาควิชาเคมีเทคนิค'
 ig: 'https://www.instagram.com/chemtech.chula?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/CTmember'
 web: 'https://www.chemtech.sc.chula.ac.th'
-้head: '/public/cht4.png'
+้head: '/cht4.png'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
-    src: '/public/cht1.PNG'
+    src: '/cht1.PNG'
     label: 'แล็บปฏิบัติการ '
     text: 'บรรยากาศการเรียนแล็บปฎิบัติการ เน้นระดมความคิด และฝึกปฎิบัติจริง'
   - id: 2
-    src: '/public/cht2.PNG'
+    src: '/cht2.PNG'
     label: 'มัชฉิมนิเทศ'
     text: 'กิจกรรมมัชฉิมนิเทศ เป็นการเชิญศิษย์เก่ามาเป็นวิทยากรอธิบายเกี่ยวกับการเตรียมตัวก่อนเข้าฝึกงานของนิสิต ภาควิชาเคมีเทคนิค ชั้นปีที่ 3'
   - id: 3
-    src: '/public/cht3.PNG'
+    src: '/cht3.PNG'
     label: 'พิธีไหว้ครู'
     text: 'พิธีไหว้ครูที่จัดขึ้นทุกปี เพื่อกระชับความสัมพันธ์ระหว่างอาจารย์และนิสิตในภาควิชา'
 ---
