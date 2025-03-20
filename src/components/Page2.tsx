@@ -1,7 +1,7 @@
 import { Dot } from "lucide-react";
 
 export const Page2 = () => {
-	const styleMajor = "font-poppins font-bold text-[#002144] text-md block text-center inline-block";
+	const styleMajor = "font-poppins font-bold text-[#002144] text-md block text-center mb-2";
 
 	const scienceData = [
 		{
@@ -38,12 +38,12 @@ export const Page2 = () => {
 
 	return (
 		<div className="bg-[url(/page2/new_bg_2.webp)] bg-cover min-h-screen">
-            <div className="h-40"></div>
+            <div className="h-35"></div>
             <div className="flex flex-col justify-center items-center">
-            <img
+                <img
                         src="/page2/SciCU.png"
-                        className="w-100"
-                    />     
+                        className="w-100 mb-3"
+                />     
                 <div className="w-full h-130 overflow-y-auto">
                     {scienceData.map((item) => (
                         <div className="flex flex-col pb-3 px-10 py-3">
@@ -52,11 +52,16 @@ export const Page2 = () => {
                             <div className="flex flex-row items-center px-2" key={major}>
                                 {/* <span className="text-sm">•</span> */}
                                 <a href="" className={`${styleMajor}`}>{major}</a>
-                                <a href=""className="flex-grow border-b-2 border-[#002144] ml-2"></a>                            </div>
+                                <a href=""className="flex-grow border-b-2 border-[#002144] ml-2 mx-auto"></a>                            
+                            </div>
                             ))}
                         </div>
                         ))}
                 </div>
+                <img 
+                    src="/page2/logo.webp" 
+                    className="mt-10 w-25"
+                />
             </div>
         </div>
 	);
