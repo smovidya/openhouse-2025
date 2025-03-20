@@ -5,7 +5,7 @@ title_thai: 'ภาควิชาฟิสิกส์'
 ig: 'https://www.instagram.com/physics.chula?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/PhysicsChula'
 web: 'https://www.frontier.phys.sc.chula.ac.th'
-้head: '/phys4.png'
+head: '/phys4.png'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
@@ -20,5 +20,5 @@ images:
     src: '/phys3.png'
     label: 'Collaborative Learning'
     text: 'A large enough blackboard for everyone in the class to solve problems together! What a golden opportunity!'
+description: 'ฟิสิกส์คือพื้นฐานของวิทยาศาสตร์ทุกแขนง เราจึงจะศึกษาเกี่ยวกับธรรมชาติและปรากฏการณ์ต่าง ๆ ในจักรวาล ซึ่งมีหลากหลายแขนง ตั้งแต่กลศาสตร์ทั่วไป กลศาสตร์ควอนตัม สสารและพลังงาน ไฟฟ้าแม่เหล็ก สัมพันธภาพ ไปจนถึงนอกโลก '
 ---
-ฟิสิกส์คือพื้นฐานของวิทยาศาสตร์ทุกแขนง เราจึงจะศึกษาเกี่ยวกับธรรมชาติและปรากฏการณ์ต่าง ๆ ในจักรวาล ซึ่งมีหลากหลายแขนง ตั้งแต่กลศาสตร์ทั่วไป กลศาสตร์ควอนตัม สสารและพลังงาน ไฟฟ้าแม่เหล็ก สัมพันธภาพ ไปจนถึงนอกโลก

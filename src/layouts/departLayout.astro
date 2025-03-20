@@ -1,31 +1,45 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import Slider from "@/components/slider";
-const {frontmatter} = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <Layout>
-    <div class="flex flex-col min-w-md h-screen items-center rounded-xl overflow-hidden bg-plan">
-            <div class="flex flex-col items-center justify-center mt-[63px]">
-                <div class=" flex my-3 items-center justify-center h-[47px] w-[232px]">
-                    <img src="/faclogo.png"/>
+    <div class="flex flex-col items-center overflow-hidden bg-plan max-w-md mx-0 my-auto h-lvh rounded-xl bg-center bg-cover">
+        <img src="/faclogo.png" class="h-17 mt-20"/>
+        <div class="flex flex-col items-center justify-start gap-4">
+            {frontmatter.name==='mathcom'||frontmatter.name==='imagetech'?(
+                <div class="flex flex-col items-center justify-center mt-4">
+                    <img src={frontmatter.head} class="max-h-16"/>
+                    <div class="text-sky-950 text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
-                <div class="flex flex-col items-center justify-center mt-[50px] h-[82px]">
-                    <img src={frontmatter.head} class="h-[60px]"/>
+                ):(
+                <div class="flex flex-col items-center justify-center mt-4 mb-4">
+                    <img src={frontmatter.head} class="max-h-12"/>
+                    <div class="text-sky-950 text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
+                )}
 
-                <div class="relative flex justify-center items-center pt-[16px]">
-                    <div class="absolute top-4 right-[100px] mt-[16px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
-                    <div class="relative left-[70px] w-[440px] h-[135px] bg-[#dad9d9]  rounded-xl shadow-lg">
-                      <div class=" h-[68px] justify-center items-center mr-[75px] ml-[15px] my-[5px] " style={{color:'#002144'}}>
-                        <slot class="font-notothai text-sm mr-[75px] ml-[20px] my-[10px] " /> 
-                      </div>
+            <div class="relative flex justify-center items-center mb-6">
+                <div class="absolute top-4 right-[100px] mt-[16px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
+                <div class="relative left-[70px] w-[440px] h-[135px] bg-white  rounded-xl shadow-lg">
+                    <div class=" h-[68px] justify-center items-center mr-[75px] ml-[15px] my-[5px] " style={{color:'#002144'}}>
+                        {frontmatter.name==='bsac'||frontmatter.name==='bbtech'?(
+                            <p class="font-poppins text-[12px] mr-[75px] ml-[20px] my-[10px] ">
+                                {frontmatter.description}</p> 
+                        ):(
+                            <p class="font-notothai text-sm mr-[75px] ml-[20px] my-[10px] ">
+                                {frontmatter.description}</p> 
+                        )}                        
                     </div>
                 </div>
-                <div class="mt-[20px] h-[330px] w-[397px]">
-                    <Slider images={frontmatter.images} client:load/>
-                </div>
-                <div class="grid grid-cols-3 gap-[12px] mt-[60px]">
+            </div>
+
+            <div class="h-[330px] w-[397px]">
+                <Slider images={frontmatter.images} client:load/>
+            </div>
+
+            <div class="grid grid-cols-3 gap-[12px]">
                     <div class="h-[31px] w-[120px]">
                         <a href={frontmatter.fac}/>
                         <img src="/fac.png"/>
@@ -38,10 +52,8 @@ const {frontmatter} = Astro.props;
                         <a href={frontmatter.ig}/>
                         <img src="/ig.png"/>
                     </div>
-                </div>
-                <div class="mt-[20px]">
-                    <img src="/navLogo.png" class="w-[125px] h-[40px]" />
-                </div>
             </div>
+            <img src="/navLogo.png" class="h-10 mt-4 " />
+        </div>
     </div>
 </Layout>

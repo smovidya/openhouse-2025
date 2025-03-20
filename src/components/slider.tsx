@@ -1,18 +1,17 @@
 import { useState } from "react";
 
 interface ImageProps {
-    id: number;
-    src: string;
-    label: string;
-    text: string;
+	id: number;
+	src: string;
+	label: string;
+	text: string;
 }
-  
+
 interface SliderProps {
-    images: ImageProps[];
+	images: ImageProps[];
 }
 
-
-export default function ImageSlider({images}:SliderProps) {
+export default function ImageSlider({ images }: SliderProps) {
 	const [activeTab, setActiveTab] = useState(1);
 	const activeContent = images.find((item) => item.id === activeTab)?.text;
 
@@ -64,8 +63,10 @@ export default function ImageSlider({images}:SliderProps) {
 					</div>
 				))}
 			</div>
-			<div className="absolute mx-6 mt-2 h-[87px] w-[340px] bg-gray-200 rounded-xl border border-[#0157b6]">
-				<p className="text-l font-notothai h-[87px] m-2 text-[#0157b6]">{activeContent}</p>
+			<div className="absolute mx-6 mt-2 h-[87px] w-[340px] bg-white rounded-xl border border-[#0157b6]">
+				<p className="text-l font-notothai h-[87px] m-2 text-[#0157b6]">
+					{activeContent}
+				</p>
 			</div>
 		</div>
 	);

@@ -119,7 +119,9 @@
 	--font-soloistextra: "soloistextra";
 	--font-soloisthalf: "soloisthalf";
 	--font-poppins: "Poppins", "sans-serif";
-	--bg-plane: url('/public/bg.webp');
+	/* --bg-plane: url("/public/bg.webp"); */
+	--bg-plane: url("/background.png");
+
 }
 
 @layer base {

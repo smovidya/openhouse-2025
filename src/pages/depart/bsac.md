@@ -20,5 +20,5 @@ images:
     src: '/bsac3.png'
     label: 'Intergame'
     text: 'Intergame 18th Delegates and Performers'
+description: 'The BSAC program focuses on applying theoretical chemistry to practical challenges in industrial, material, environmental, cosmetic, and entrepreneurial chemistry for both local and international businesses. '
 ---
-The BSAC program focuses on applying theoretical chemistry to practical challenges in industrial, material, environmental, cosmetic, and entrepreneurial chemistry for both local and international businesses.

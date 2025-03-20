@@ -1,6 +1,6 @@
 ---
-name: 'bsac'
-title: 'bsac'
+name: 'bbtech'
+title: 'bbtech'
 title_thai: 'เคมีประยุกต์ (นานาชาติ)'
 ig: 'https://www.instagram.com/bbtech.choola?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/BBTechChula'
@@ -20,5 +20,6 @@ images:
     src: '/bbtech3.png'
     label: 'BBTech CSR Trip'
     text: 'BBTech CSR Trip🏡: A trip to suburban areas to help locals, teach kids, promote sustainability, and enjoy fun activities.'
+description: 'BBTech explores diverse realms of biotechnology, encompassing different fields such as animal, plant, microbial, environmental, bioinformatics, and biotechnology management by diving deep into cutting-edge technologies '
 ---
-BBTech explores diverse realms of biotechnology, encompassing different fields such as animal, plant, microbial, environmental, bioinformatics, and biotechnology management by diving deep into cutting-edge technologies 
+

@@ -1,11 +1,11 @@
 ---
 name: 'chem'
 title: 'chem'
-title_thai: 'ภาควิชาเคมํ'
+title_thai: 'ภาควิชาเคมี'
 ig: 'https://www.instagram.com/chem_chula?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/chemistrychula'
 web: 'https://web.chemcu.org'
-head: '/cht4.png'
+head: '/chem4.png'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
@@ -20,5 +20,5 @@ images:
     src: '/chem3.png'
     label: 'Chem Trip'
     text: 'Chem Trip โครงการพัฒนาศักยภาพและสานสัมพันธ์นิสิตด้วยปฏิบัติการห้องทดลองเคลื่อนที่'
+description: 'ภาควิชาเคมี ครอบคลุมในหลายด้านทั้งเคมีอินทรีย์, เคมีอนินทรีย์, เคมีฟิสิกัล, เคมีวิเคราะห์, เคมีสีเขียวและความยั่งยืน เรามีห้องปฏิบัติการและเครื่องมือที่ทันสมัย และมีการร่วมมือกับทั้งภาควิชา สถาบัน และอุตสาหกรรมอื่น ๆ '
 ---
-ภาควิชาเคมี ครอบคลุมในหลายด้านทั้งเคมีอินทรีย์, เคมีอนินทรีย์, เคมีฟิสิกัล, เคมีวิเคราะห์, เคมีสีเขียวและความยั่งยืน เรามีห้องปฏิบัติการและเครื่องมือที่ทันสมัย และมีการร่วมมือกับทั้งภาควิชา สถาบัน และอุตสาหกรรมอื่น ๆ
