@@ -13,11 +13,11 @@ images:
     label: 'BBTECH Rubnong'
     text: 'BBTECH Rubnong💖: New students meet and bond with seniors through fun games and activities and memories.'
   - id: 2
-    src: '/bbtech2.PNG'
+    src: '/bbtech2.png'
     label: 'BBTECH Sports '
     text: 'BBTECH Sports in Intergames🏀: An exclusive sports event for international faculties to connect, compete, and make global friends.'
   - id: 3
-    src: '/bbtech3.PNG'
+    src: '/bbtech3.png'
     label: 'BBTech CSR Trip'
     text: 'BBTech CSR Trip🏡: A trip to suburban areas to help locals, teach kids, promote sustainability, and enjoy fun activities.'
 ---
