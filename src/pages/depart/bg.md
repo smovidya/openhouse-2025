@@ -9,15 +9,15 @@ web: 'https://www.botany.sc.chula.ac.th/'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
-    src: ''
+    src: '/public/bg1.PNG'
     label: ''
     text: ''
   - id: 2
-    src: ''
+    src: '/public/bg2.PNG''
     label: ''
     text: ''
   - id: 3
-    src: ''
+    src: '/public/bg3.PNG''
     label: ''
     text: ''
 ---
