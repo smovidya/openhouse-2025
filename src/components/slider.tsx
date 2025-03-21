@@ -63,7 +63,7 @@ export default function ImageSlider({ images }: SliderProps) {
 					</div>
 				))}
 			</div>
-			<div className="mx-6 mt-2 w-[340px] bg-white rounded-xl border border-[#0157b6]">
+			<div className="mx-6 h-[87px] mt-2 w-[340px] bg-[#0058b63e] rounded-xl">
 				<p className="text-l font-notothai m-2 text-[#0157b6]">
 					{activeContent}
 				</p>

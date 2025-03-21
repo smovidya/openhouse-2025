@@ -42,7 +42,7 @@ export const Major = () => {
 			grouping: "/page2/SIS.png",
 			majors: [
 				{name:"BBTech",routing:"bbtech"},
-				{name:"BISTech",routing:"bsac"},
+				{name:"BISTech",routing:"bistech"},
 			],
 		},
 	];
@@ -66,7 +66,7 @@ export const Major = () => {
 						</div>
 					))}
 				</div>
-				<img src="/page2/logo.webp" className="mt-10 w-25" />
+				<img src="/assets/logo.webp" className="mt-10 w-25" />
 			</div>
 	);
 };
