@@ -51,7 +51,7 @@ export const Page2 = () => {
 
 	return (
 		<div
-			className="flex flex-col items-center h-screen w-full min-h-full relative py-[70px] bg-contain bg-center bg-no-repeat overflow-x-hidden"
+			className="flex flex-col items-center h-full w-full relative py-[70px] bg-cover bg-top bg-no-repeat overflow-x-hidden"
 		>
 			<div className="h-22"></div>
 			<div className="flex flex-col justify-center items-center">
