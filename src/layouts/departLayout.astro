@@ -23,23 +23,19 @@ const { frontmatter } = Astro.props;
             <div class="relative flex justify-center items-center mb-12">
                 <div class="absolute top-4 right-[100px] mt-[16px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
                 <div class="relative left-[70px] w-[440px] h-[135px] bg-white  rounded-xl shadow-lg">
-                    <div class=" h-[68px] justify-center items-center mr-[75px] ml-[15px] my-[5px] " style={{color:'#002144'}}>
                         {frontmatter.name==='bsac'||frontmatter.name==='bbtech'?(
-                            <p class="font-poppins text-[12px] mr-[75px] ml-[20px] my-[10px] ">
+                            <p class="font-poppins text-sm max-w-80 px-4 py-2">
                                 {frontmatter.description}</p> 
                         ):(
-                            <p class="font-notothai text-sm mr-[75px] ml-[20px] my-[10px] ">
+                            <p class="font-notothai text-sm max-w-80 p-4">
                                 {frontmatter.description}</p> 
                         )}                        
-                    </div>
                 </div>
             </div>
 
-            <div class="h-[330px] w-[397px] mb-2">
                 <Slider images={frontmatter.images} client:load/>
-            </div>
 
-            <div class="grid grid-cols-3">
+            <div class="grid grid-cols-3 mt-2">
                 <a href={frontmatter.fac} ><img src="/fac.png" class="h-8"/></a>
                 <a href={frontmatter.web} ><img src="/web.png" class="h-8"/></a>
                 <a href={frontmatter.ig} ><img src="/ig.png" class="h-8"/></a>
