@@ -1,13 +1,13 @@
 import { Dot } from "lucide-react";
 
 export const Page2 = () => {
-	const styleMajor = "font-poppins font-bold text-[#002144] text-md block text-center mb-2";
+	const styleMajor = "font-poppins font-bold text-[#0e1979] text-md block text-center mb-2";
 
 	const scienceData = [
 		{
 			grouping: "/page2/PHYS.png",
 			majors: [
-				"Mathematics & Computer Science",
+				"Mathematics and Computer Science",
 				"Chemistry",
 				"BSAC",
 				"Physics",
@@ -37,33 +37,30 @@ export const Page2 = () => {
 	];
 
 	return (
-		<div className="bg-[url(/page2/new_bg_2.webp)] bg-cover min-h-screen h-full">
-            <div className="h-37"></div>
+		<div style={{
+            backgroundImage: "url('/page2/bg.webp')",
+          }}
+            className="flex flex-col items-center h-screen w-full min-h-full relative py-[70px] bg-contain bg-center bg-no-repeat overflow-x-hidden">
+            <div className="h-20"></div>
             <div className="flex flex-col justify-center items-center">
                 <img
                         src="/page2/SciCU.png"
-                        className="w-100 mb-3"
+                        className="w-100 "
                 />     
-                <div className="w-full h-130 overflow-y-auto mb-3">
+                <div className="w-full h-120 overflow-y-auto">
                     {scienceData.map((item) => (
-                        <div className="flex flex-col pb-3 px-10 py-3">
-                        <img src={item.grouping} className=" self-center mb-2"/>
-                        {item.majors.map((major) => (
-                            <div className="flex flex-row items-center px-2" key={major}>
-                                {/* <span className="text-sm">•</span> */}
-                                <a href="" className={`${styleMajor}`}>{major}</a>
-                                <a href=""className="flex-grow border-b-2 border-[#002144] ml-2 mx-auto"></a>                            
-                            </div>
-                            ))}
+                        <div className="flex flex-col pb-2 px-10 mt-3">
+							<img src={item.grouping} className=" self-center mb-2 px-1"/>
+							{item.majors.map((major) => (
+								<div className="flex flex-row items-center px-2" key={major}>
+									<a href="" className={`${styleMajor}`}>{major}</a>
+									<a href=""className="flex-grow border-b-2 border-[#002144] ml-2 mx-auto"></a>                            
+								</div>
+								))}
                         </div>
 
-                        
                         ))}
                 </div>
-                <img 
-                    src="/page2/logo.webp" 
-                    className="mt-10 w-25"
-                />
             </div>
         </div>
 	);
