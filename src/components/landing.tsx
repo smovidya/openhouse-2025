@@ -7,7 +7,7 @@ const Main = () => {
 				<div className="flex flex-col items-center gap-2">
 					<img className="w-[125.93px] h-[40px]" src="/assets/logo.webp"></img>
 					<h1 className="font-soloisthalf text-[32px] text-center text-[#0E1979]">
-					SCIENCE CHULA <br/> OPEN HOUSE 2025
+						SCIENCE CHULA <br /> OPEN HOUSE 2025
 					</h1>
 				</div>
 				<div className="flex items-center justify-center ">
@@ -19,7 +19,7 @@ const Main = () => {
 				</div>
 				<div className="text-left -ml-20 -mt-4">
 					<p className="font-soloistextra text-[20px] text-left text-[#0E1979] mb-4">
-					OUR CONTACT
+						OUR CONTACT
 					</p>
 					<p className="font-poppins italic text-[#0E1979] text-[12px]">
 						<span className="font-bold">INSTAGRAM :</span> SCICHULAOPENHOUSE
