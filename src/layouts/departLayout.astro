@@ -7,16 +7,16 @@ const { frontmatter } = Astro.props;
 <Layout>
     <div class="flex flex-col items-center overflow-hidden bg-plan max-w-md mx-0 my-auto h-full rounded-xl bg-center bg-cover ">
         <img src="/faclogo.png" class="h-9 mt-10"/>
-        <div class="flex flex-col items-center justify-start mt-[40px]">
+        <div class="flex flex-col items-center justify-center mt-[40px]">
             {frontmatter.name==='mathcom'||frontmatter.name==='imagetech'?(
                 <div class="flex flex-col items-center justify-center mb-2">
                     <img src={frontmatter.head} class="max-h-11"/>
-                    <div class="text-[#0e1979] text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
+                    <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
                 ):(
                 <div class="flex flex-col items-center justify-center mb-2">
                     <img src={frontmatter.head} class="max-h-11"/>
-                    <div class="text-[#0e1979] text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
+                    <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
                 )}
 
@@ -35,7 +35,7 @@ const { frontmatter } = Astro.props;
 
                 <Slider images={frontmatter.images} client:load/>
 
-            <div class="flex flex-row ml-2 gap-2 mt-[12px] justify-between w-[400px]">
+            <div class="flex flex-row ml-2 gap-2 mt-[12px] mb-6 justify-between w-[400px]">
                 <a href={frontmatter.fac} ><img src="/fac.png" class="h-8"/></a>
                 <a href={frontmatter.ig} ><img src="/ig.png" class="h-8"/></a>
                 <a href={frontmatter.web} ><img src="/web.png" class="h-8"/></a>
