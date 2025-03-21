@@ -11,15 +11,21 @@ images:
   - id: 1
     src: '/bis1.png'
     label: 'BISTech'
-    text: 'Apply now to be a driving force behind industrial innovation and progress!'
+    text: 'The Bachelor of Science Program in Industrial Science and Technology'
   - id: 2
     src: '/bis1.png'
     label: 'BISTech '
-    text: 'Apply now to be a driving force behind industrial innovation and progress!'
+    text: 'The Bachelor of Science Program in Industrial Science and Technology'
   - id: 3
     src: '/bis1.png'
     label: 'BISTech'
-    text: 'Apply now to be a driving force behind industrial innovation and progress!'
-description: ' BISTech integrates expertise in materials science, food technology, chemical technology, and imaging and printing technology with comprehensive management knowledge to equip future industry leaders with an in-depth understanding of manufacturing technologies and essential communication skills. '
+    text: 'The Bachelor of Science Program in Industrial Science and Technology'
+description: '
+BISTech integrates expertise in materials science, <br/>
+food technology, chemical technology, and imaging <br/>
+and printing technology with comprehensive <br/>
+management knowledge to equip future industry <br/>
+leaders with an in-depth understanding of manufacturing <br/>
+technologies and essential communication skills. '
 ---
 

@@ -24,11 +24,11 @@ const { frontmatter } = Astro.props;
                 <div class="absolute top-2 right-[20px] mt-[10px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
                 <div class="relative left-[20px] w-[440px] h-[135px] bg-white  rounded-xl shadow-lg">
                         {frontmatter.name==='bsac'||frontmatter.name==='bbtech'?(
-                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 px-4 py-2">
-                                {frontmatter.description}</p>
+                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 px-4 py-2"
+                            set:html={frontmatter.description}/>
                         ):(
-                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 p-4">
-                                {frontmatter.description}</p> 
+                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 p-4"
+                            set:html={frontmatter.description}/>
                         )}                        
                 </div>
             </div>
