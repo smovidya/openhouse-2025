@@ -6,28 +6,28 @@ const { frontmatter } = Astro.props;
 
 <Layout>
     <div class="flex flex-col items-center overflow-hidden bg-plan max-w-md mx-0 my-auto h-full rounded-xl bg-center bg-cover ">
-        <img src="/faclogo.png" class="h-17 mt-16"/>
-        <div class="flex flex-col items-center justify-start">
+        <img src="/faclogo.png" class="h-9 mt-10"/>
+        <div class="flex flex-col items-center justify-center mt-[40px]">
             {frontmatter.name==='mathcom'||frontmatter.name==='imagetech'?(
                 <div class="flex flex-col items-center justify-center mb-2">
-                    <img src={frontmatter.head} class="max-h-16"/>
-                    <div class="text-sky-950 text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
+                    <img src={frontmatter.head} class="max-h-11"/>
+                    <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
                 ):(
-                <div class="flex flex-col items-center justify-center mt-2 mb-4">
-                    <img src={frontmatter.head} class="max-h-12"/>
-                    <div class="text-sky-950 text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
+                <div class="flex flex-col items-center justify-center mb-2">
+                    <img src={frontmatter.head} class="max-h-11"/>
+                    <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
                 )}
 
-            <div class="relative flex justify-center items-center mb-12">
-                <div class="absolute top-4 right-[100px] mt-[16px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
-                <div class="relative left-[70px] w-[440px] h-[135px] bg-white  rounded-xl shadow-lg">
+            <div class="relative flex justify-center items-center mb-[32px]">
+                <div class="absolute top-2 right-[20px] mt-[10px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
+                <div class="relative left-[20px] w-[440px] h-[135px] bg-white  rounded-xl shadow-lg">
                         {frontmatter.name==='bsac'||frontmatter.name==='bbtech'?(
-                            <p class="font-poppins text-sm max-w-80 px-4 py-2">
-                                {frontmatter.description}</p> 
+                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 px-4 py-2">
+                                {frontmatter.description}</p>
                         ):(
-                            <p class="font-notothai text-sm max-w-80 p-4">
+                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 p-4">
                                 {frontmatter.description}</p> 
                         )}                        
                 </div>
@@ -35,12 +35,12 @@ const { frontmatter } = Astro.props;
 
                 <Slider images={frontmatter.images} client:load/>
 
-            <div class="grid grid-cols-3 mt-2">
+            <div class="flex flex-row ml-2 gap-2 mt-[12px] mb-6 justify-between w-[400px]">
                 <a href={frontmatter.fac} ><img src="/fac.png" class="h-8"/></a>
-                <a href={frontmatter.web} ><img src="/web.png" class="h-8"/></a>
                 <a href={frontmatter.ig} ><img src="/ig.png" class="h-8"/></a>
+                <a href={frontmatter.web} ><img src="/web.png" class="h-8"/></a>
             </div>
-            <img src="/assets/logo.webp" class="h-10 mt-4 mb-6 " />
+            
         </div>
     </div>
 </Layout>

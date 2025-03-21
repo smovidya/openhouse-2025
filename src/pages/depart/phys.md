@@ -11,7 +11,7 @@ images:
   - id: 1
     src: '/phys1.png'
     label: 'Physics colloquiums '
-    text: 'Physics colloquiums by experts from top universities nearly, offer students opportunities for academic discussions.'
+    text: 'Physics colloquiums by experts from top universities nearly every week, offer students opportunities for one-on-one academic discussions across various fields.'
   - id: 2
     src: '/phys2.png'
     label: 'Fun Lab'
@@ -20,5 +20,5 @@ images:
     src: '/phys3.png'
     label: 'Collaborative Learning'
     text: 'A large enough blackboard for everyone in the class to solve problems together! What a golden opportunity!'
-description: 'ฟิสิกส์คือพื้นฐานของวิทยาศาสตร์ทุกแขนง เราจึงจะศึกษาเกี่ยวกับธรรมชาติและปรากฏการณ์ต่าง ๆ ในจักรวาล ซึ่งมีหลากหลายแขนง ตั้งแต่กลศาสตร์ทั่วไป กลศาสตร์ควอนตัม สสารและพลังงาน ไฟฟ้าแม่เหล็ก สัมพันธภาพ ไปจนถึงนอกโลก '
+description: 'ฟิสิกส์คือพื้นฐานของวิทยาศาสตร์ทุกแขนง เราจึงจะศึกษาเกี่ยวกับธรรมชาติและปรากฏการณ์ต่าง ๆ ในจักรวาล ซึ่งมีหลากหลายแขนง ตั้งแต่กลศาสตร์ทั่วไป กลศาสตร์ควอนตัม สสารและพลังงาน ไฟฟ้าแม่เหล็ก สัมพันธภาพ ไปจนถึงนอกโลกอย่าง คอสมิก ดาราศาสตร์และจักรวาลวิทยา'
 ---

@@ -1,0 +1,25 @@
+---
+name: 'bistech'
+title: 'bistech'
+title_thai: 'The Bachelor of Science Program in Industrial Science and Technology'
+ig: ''
+fac: 'https://www.facebook.com/profile.php?id=61566378213251'
+web: 'https://www.bistech.sc.chula.ac.th/?fbclid=IwY2xjawJIl4lleHRuA2FlbQIxMAABHWuwngpwwWEI2RUAGVaDXXUKtETSbYNZHmCQcgnoQfVD_UgmMia1TAaTDQ_aem_8ErTVXL3E2U6jz0PNjiYrg'
+head: '/bis2.png'
+layout: '@/layouts/departLayout.astro'
+images:
+  - id: 1
+    src: '/bis1.png'
+    label: 'BISTech'
+    text: 'Apply now to be a driving force behind industrial innovation and progress!'
+  - id: 2
+    src: '/bis1.png'
+    label: 'BISTech '
+    text: 'Apply now to be a driving force behind industrial innovation and progress!'
+  - id: 3
+    src: '/bis1.png'
+    label: 'BISTech'
+    text: 'Apply now to be a driving force behind industrial innovation and progress!'
+description: ' BISTech integrates expertise in materials science, food technology, chemical technology, and imaging and printing technology with comprehensive management knowledge to equip future industry leaders with an in-depth understanding of manufacturing technologies and essential communication skills. '
+---
+
