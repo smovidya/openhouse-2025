@@ -5,19 +5,19 @@ const Main = () => {
 		<a href="/faculty">
 			<div className="flex flex-col relative justify-center items-center p-6 max-w-md mx-auto my-auto bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md min-h-screen">
 				<div className="flex flex-col items-center gap-2">
-					<img className="w-[125.93px] h-[40px]" src="/assets/logo.webp"></img>
-					<h1 className="font-soloisthalf text-[32px] text-center text-[#0E1979]">
+					<img className="h-9 w-auto" src="/assets/logo.webp"></img>
+					<h1 className="font-soloisthalf text-[24px] text-center text-[#0E1979]">
 					SCIENCE CHULA <br/> OPEN HOUSE 2025
 					</h1>
 				</div>
 				<div className="flex items-center justify-center ">
 					<img
 						src="assets/date.png"
-						className="w-[97.26px] h-auto -mr-12"
+						className="w-[65px] h-auto -mr-5"
 					></img>
-					<img src="assets/window.webp" className="w-[367.41] h-auto"></img>
+					<img src="assets/window.webp" className="w-[260px] h-auto"></img>
 				</div>
-				<div className="text-left -ml-20 -mt-4">
+				<div className="text-left -ml-10">
 					<p className="font-soloistextra text-[20px] text-left text-[#0E1979] mb-4">
 					OUR CONTACT
 					</p>
@@ -31,7 +31,7 @@ const Main = () => {
 					</p>
 				</div>
 				<img
-					className="absolute right-[4px] bottom-[100px] w-[180px]"
+					className="absolute right-[40px] bottom-[130px] w-[120px] h-auto"
 					src="assets/taptolearn.png"
 				></img>
 			</div>
