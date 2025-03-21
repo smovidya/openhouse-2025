@@ -20,8 +20,8 @@ const { frontmatter } = Astro.props;
                 </div>
                 )}
 
-            <div class="relative flex justify-center items-center mb-12">
-                <div class="absolute top-4 right-[20px] mt-[10px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
+            <div class="relative flex justify-center items-center mb-[32px]">
+                <div class="absolute top-2 right-[20px] mt-[10px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
                 <div class="relative left-[20px] w-[440px] h-[135px] bg-white  rounded-xl shadow-lg">
                         {frontmatter.name==='bsac'||frontmatter.name==='bbtech'?(
                             <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 px-4 py-2">
@@ -35,7 +35,7 @@ const { frontmatter } = Astro.props;
 
                 <Slider images={frontmatter.images} client:load/>
 
-            <div class="flex flex-row ml-2 gap-2 mt-[22px] justify-between w-[400px]">
+            <div class="flex flex-row ml-2 gap-2 mt-[12px] justify-between w-[400px]">
                 <a href={frontmatter.fac} ><img src="/fac.png" class="h-8"/></a>
                 <a href={frontmatter.ig} ><img src="/ig.png" class="h-8"/></a>
                 <a href={frontmatter.web} ><img src="/web.png" class="h-8"/></a>

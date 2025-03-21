@@ -17,7 +17,7 @@ export default function ImageSlider({ images }: SliderProps) {
 
 	return (
 		<div className="relative w-full max-w-md">
-			<div className="flex items-end gap-4 h-56 px-6 mt-[8px]">
+			<div className="flex items-end gap-4 h-56 px-6">
 				{images.map((item) => (
 					<div
 						key={item.id}
@@ -63,7 +63,7 @@ export default function ImageSlider({ images }: SliderProps) {
 					</div>
 				))}
 			</div>
-			<div className="mx-6 h-[87px] mt-[22px] w-[400px] bg-[#0058b63e] rounded-xl">
+			<div className="mx-6 h-[87px] mt-[12px] w-[400px] bg-[#0058b63e] rounded-xl">
 				<p className="text-sm font-notothai p-2 text-[#0157b6]">
 					{activeContent}
 				</p>
