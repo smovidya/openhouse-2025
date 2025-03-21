@@ -5,42 +5,62 @@ const { frontmatter } = Astro.props;
 ---
 
 <Layout>
-    <div class="flex flex-col items-center overflow-hidden bg-plan max-w-md mx-0 my-auto h-full rounded-xl bg-center bg-cover ">
-        <img src="/faclogo.png" class="h-9 mt-10"/>
-        <div class="flex flex-col items-center justify-center mt-[40px]">
-            {frontmatter.name==='mathcom'||frontmatter.name==='imagetech'?(
-                <div class="flex flex-col items-center justify-center mb-2">
-                    <img src={frontmatter.head} class="max-h-11"/>
-                    <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
-                </div>
-                ):(
-                <div class="flex flex-col items-center justify-center mb-2">
-                    <img src={frontmatter.head} class="max-h-11"/>
-                    <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
-                </div>
-                )}
-
-            <div class="relative flex justify-center items-center mb-[32px]">
-                <div class="absolute top-2 right-[20px] mt-[10px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"></div>
-                <div class="relative left-[20px] w-[440px] h-[135px] bg-white  rounded-xl shadow-lg">
-                        {frontmatter.name==='bsac'||frontmatter.name==='bbtech'?(
-                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 px-4 py-2">
-                                {frontmatter.description}</p>
-                        ):(
-                            <p class="font-notothai text-[#0e1979] text-sm  max-w-11/12 p-4">
-                                {frontmatter.description}</p> 
-                        )}                        
-                </div>
+  <div
+    class="flex flex-col items-center overflow-hidden bg-plan max-w-md mx-0 my-auto h-full rounded-xl bg-center bg-cover"
+  >
+    <img src="/faclogo.png" class="h-9 mt-10" />
+    <div class="flex flex-col items-center justify-center mt-[40px]">
+      {
+        frontmatter.name === "mathcom" || frontmatter.name === "imagetech" ? (
+          <div class="flex flex-col items-center justify-center mb-2">
+            <img src={frontmatter.head} class="max-h-11" />
+            <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">
+              {frontmatter.title_thai}
             </div>
-
-                <Slider images={frontmatter.images} client:load/>
-
-            <div class="flex flex-row ml-2 gap-2 mt-[12px] mb-6 justify-between w-[400px]">
-                <a href={frontmatter.fac} ><img src="/fac.png" class="h-8"/></a>
-                <a href={frontmatter.ig} ><img src="/ig.png" class="h-8"/></a>
-                <a href={frontmatter.web} ><img src="/web.png" class="h-8"/></a>
+          </div>
+        ) : (
+          <div class="flex flex-col items-center justify-center mb-2">
+            <img src={frontmatter.head} class="max-h-11" />
+            <div class="text-[#0e1979] text-center text-xl font-bold font-notothai">
+              {frontmatter.title_thai}
             </div>
-            
+          </div>
+        )
+      }
+
+      <div class="relative flex justify-center items-center mb-[32px]">
+        <div
+          class="absolute top-2 right-[20px] mt-[10px] w-[440px] h-[135px] bg-[#2c63b5] rounded-xl"
+        >
         </div>
+        <div
+          class="relative left-[20px] w-[440px] h-[135px] bg-white rounded-xl shadow-lg"
+        >
+          {
+            frontmatter.name === "bsac" || frontmatter.name === "bbtech" ? (
+              <p
+                class="font-notothai text-[#0e1979] text-sm max-w-11/12 px-4 py-2"
+                set:html={frontmatter.description}
+              />
+            ) : (
+              <p
+                class="font-notothai text-[#0e1979] text-sm max-w-11/12 p-4"
+                set:html={frontmatter.description}
+              />
+            )
+          }
+        </div>
+      </div>
+
+      <Slider images={frontmatter.images} client:load />
+
+      <div
+        class="flex flex-row ml-2 gap-2 mt-[12px] mb-6 justify-between w-[400px]"
+      >
+        <a href={frontmatter.fac}><img src="/fac.png" class="h-8" /></a>
+        <a href={frontmatter.ig}><img src="/ig.png" class="h-8" /></a>
+        <a href={frontmatter.web}><img src="/web.png" class="h-8" /></a>
+      </div>
     </div>
+  </div>
 </Layout>
