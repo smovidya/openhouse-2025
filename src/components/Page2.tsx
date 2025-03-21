@@ -51,12 +51,9 @@ export const Page2 = () => {
 
 	return (
 		<div
-			style={{
-				backgroundImage: "url('/page2/bg.webp')",
-			}}
 			className="flex flex-col items-center h-screen w-full min-h-full relative py-[70px] bg-contain bg-center bg-no-repeat overflow-x-hidden"
 		>
-			<div className="h-20"></div>
+			<div className="h-22"></div>
 			<div className="flex flex-col justify-center items-center">
 				<img src="/page2/SciCU.png" className="w-100 " />
 				<div className="w-full h-120 overflow-y-auto">
