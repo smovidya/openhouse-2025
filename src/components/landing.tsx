@@ -11,10 +11,7 @@ const Main = () => {
 					</h1>
 				</div>
 				<div className="flex items-center justify-center ">
-					<img
-						src="assets/date.png"
-						className="w-[65px] h-auto -mr-5"
-					></img>
+					<img src="assets/date.png" className="w-[65px] h-auto -mr-5"></img>
 					<img src="assets/window.png" className="w-[260px] h-auto"></img>
 				</div>
 				<div className="text-left -ml-10">

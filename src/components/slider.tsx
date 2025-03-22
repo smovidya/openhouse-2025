@@ -68,7 +68,6 @@ export default function ImageSlider({ images }: SliderProps) {
 					className="text-sm font-notothai p-2 text-[#0157b6]"
 					dangerouslySetInnerHTML={{ __html: activeContent || "" }}
 				/>
-					
 			</div>
 		</div>
 	);

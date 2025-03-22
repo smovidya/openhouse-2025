@@ -50,9 +50,7 @@ export const Page2 = () => {
 	];
 
 	return (
-		<div
-			className="flex flex-col items-center h-screen w-full min-h-full relative py-[70px] bg-contain bg-center bg-no-repeat overflow-x-hidden"
-		>
+		<div className="flex flex-col items-center relative py-[70px] bg-plan max-w-md mx-0 my-auto rounded-xl bg-cover bg-top overflow-x-hidden h-screen w-full min-h-full overflow-hidden ">
 			<div className="h-22"></div>
 			<div className="flex flex-col justify-center items-center">
 				<img src="/page2/SciCU.png" className="w-100 " />

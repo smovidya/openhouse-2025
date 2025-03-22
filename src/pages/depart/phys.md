@@ -11,9 +11,9 @@ images:
   - id: 1
     src: '/phys1.png'
     label: 'Physics colloquiums '
-    text: 'Weekly physics colloquiums by experts from top universities <br/>
-offer our students opportunities for one-on-one academic <br/>
-discussions on topics across various fields.'
+    text: 'Weekly physics colloquiums by experts from <br/>
+top universities offer our students opportunities <br/>
+for one-on-one academic discussions on topics <br/>across various fields.'
   - id: 2
     src: '/phys2.png'
     label: 'Fun Lab'
