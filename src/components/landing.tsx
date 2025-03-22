@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
 	return (
 		<a href="/faculty">
-			<div className="flex flex-col relative justify-center items-center p-6 bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md h-full w-full">
+			<div className="flex flex-col relative justify-center items-center p-6 bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md h-full overflow-hidden w-full">
 				<div className="flex flex-col items-center gap-2">
 					<img className="h-9 w-auto" src="/assets/logo.webp"></img>
 					<h1 className="font-soloisthalf text-[32px] text-center text-[#0E1979]">
@@ -11,10 +11,7 @@ const Main = () => {
 					</h1>
 				</div>
 				<div className="flex items-center justify-center ">
-					<img
-						src="assets/date.png"
-						className="w-[65px] h-auto -mr-5"
-					></img>
+					<img src="assets/date.png" className="w-[65px] h-auto -mr-5"></img>
 					<img src="assets/window.png" className="w-[260px] h-auto"></img>
 				</div>
 				<div className="text-left -ml-10">
