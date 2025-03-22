@@ -18,7 +18,7 @@ images:
     text: 'Internal Chemistry Workshop at Hiroshima University 2024'
   - id: 3
     src: '/bsac3.png'
-    label: 'Intergame'
-    text: 'Intergame 18th Delegates and Performers'
+    label: 'Intergames'
+    text: 'Intergames 18th Delegates and Performers'
 description: 'The BSAC program puts emphasis on applying theoretical  chemistry concepts to practical applications and challenges posed by the needs of local and international businesses,  with areas encompassing industrial, material, environmental, cosmetic, and entrepreneurial chemistry. '
 ---
