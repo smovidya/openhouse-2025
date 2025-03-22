@@ -5,17 +5,17 @@ const { frontmatter } = Astro.props;
 ---
 
 <Layout>
-    <div class="flex flex-col items-center rounded-xl bg-cover bg-top bg-no-repeat overflow-x-hidden h-dvh w-full overflow-hidden bg-plan max-w-md mx-0 my-auto">
+    <div class="flex flex-col items-center justify-start rounded-xl bg-cover bg-top bg-no-repeat overflow-x-hidden h-dvh w-full overflow-hidden bg-plan max-w-md mx-0 my-auto">
         <img src="/faclogo.png" class="h-12 mt-10"/>
         {frontmatter.name==='mathcom'||frontmatter.name==='imagetech'?(
                 <div class="flex flex-col items-center justify-center -mt-1 mb-3">
                     <img src={frontmatter.head} class="max-h-16"/>
-                    <div class="text-[#0e1979] text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
+                    <div class="text-[#0e1979] text-xl text-center font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
                 ):(
                 <div class="flex flex-col items-center justify-center my-2">
                     <img src={frontmatter.head} class="h-14"/>
-                    <div class="text-[#0e1979] text-xl font-bold font-notothai">{frontmatter.title_thai}</div>                    
+                    <div class="text-[#0e1979] text-xl text-center font-bold font-notothai">{frontmatter.title_thai}</div>                    
                 </div>
                 )}
       <div class="relative flex justify-center items-center mb-[32px]">
