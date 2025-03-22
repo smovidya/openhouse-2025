@@ -2,8 +2,7 @@ import React from "react";
 
 const Main = () => {
 	return (
-		<a href="/faculty">
-			<div className="flex flex-col relative justify-center items-center p-6 max-w-md mx-auto my-auto bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md h-dvh">
+		<a href="/faculty" className="flex flex-col relative justify-center items-center py-6 max-w-md mx-auto my-auto bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md h-dvh">
 				<div className="flex flex-col items-center gap-2">
 					<img className="h-9 w-auto" src="/assets/logo.webp"></img>
 					<h1 className="font-soloisthalf text-[32px] text-center text-[#0E1979]">
@@ -27,7 +26,6 @@ const Main = () => {
 						<span className="font-bold">TIKTOK :</span> SCICHULAOPENHOUSE
 					</p>
 				</div>
-			</div>
 		</a>
 	);
 };
