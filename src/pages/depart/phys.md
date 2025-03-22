@@ -25,8 +25,7 @@ we’re still safe.'
     label: 'Collaborative Learning'
     text: 'A large enough blackboard for everyone in the class  
 to solve problems together! What a golden opportunity!'
-description: '
-ฟิสิกส์คือพื้นฐานของวิทยาศาสตร์ทุกแขนง เราจึงจะศึกษาเกี่ยวกับ
+description: 'ฟิสิกส์คือพื้นฐานของวิทยาศาสตร์ทุกแขนง เราจึงจะศึกษาเกี่ยวกับ
  ธรรมชาติและปรากฏการณ์ต่าง ๆ ในจักรวาล ซึ่งมีหลากหลายแขนง
  ตั้งแต่กลศาสตร์ทั่วไป กลศาสตร์ควอนตัม สสารและพลังงาน
  ไฟฟ้าแม่เหล็ก สัมพันธภาพ ไปจนถึงนอกโลกอย่าง คอสมิก
