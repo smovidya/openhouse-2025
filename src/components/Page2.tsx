@@ -63,7 +63,7 @@ export const Page2 = () => {
       <div className="flex flex-col items-center relative py-[70px] max-w-md mx-0 my-auto rounded-xl bg-cover bg-top overflow-x-hidden h-dvh w-full overflow-hidden bg-no-repeat">
         <div className="flex flex-col justify-center items-center mt-16">
           <img src="/page2/SciCU.png" className="w-100" />
-          <div className="w-full h-120 overflow-y-auto pb-28">
+          <div className="w-full h-120 overflow-y-auto pb-16">
             {scienceData.map((item) => (
               <div className="flex flex-col pb-2 px-10 mt-3">
                 <img src={item.grouping} className=" self-center mb-2 px-1" />

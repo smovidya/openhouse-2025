@@ -68,7 +68,7 @@ export default function ImageSlider({ images }: SliderProps) {
 			
 			<div className="flex mx-auto h-[87px] mt-3 w-[95%] bg-[#0058b63e] rounded-xl">
 				<p
-					className="text-sm font-notothai p-2 text-[#0157b6]"
+					className="text-sm font-notothai p-2 text-[#0e1979]"
 					dangerouslySetInnerHTML={{ __html: activeContent || "" }}
 				/>
 			</div>
