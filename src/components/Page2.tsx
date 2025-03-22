@@ -1,4 +1,3 @@
-import { Dot } from "lucide-react";
 
 export const Page2 = () => {
 	const styleMajor =
@@ -6,7 +5,7 @@ export const Page2 = () => {
 
 	const scienceData = [
 		{
-			grouping: "/page2/PHYS.png",
+			grouping: "./src/image/page2/PHYS.png",
 			majors: [
 				{ name: "Mathematics and Computer Science", routing: "mathcom" },
 				{ name: "Chemistry", routing: "chem" },
@@ -15,7 +14,7 @@ export const Page2 = () => {
 			],
 		},
 		{
-			grouping: "/page2/BIO.png",
+			grouping: "./src/image/page2/BIO.png",
 			majors: [
 				{ name: "Biology", routing: "bio" },
 				{ name: "Botany", routing: "bg" },
@@ -24,7 +23,7 @@ export const Page2 = () => {
 			],
 		},
 		{
-			grouping: "/page2/TECH.png",
+			grouping: "./src/image/page2/TECH.png",
 			majors: [
 				{ name: "Chemical Technology", routing: "cht" },
 				{ name: "Materials Science", routing: "matsci" },
@@ -33,7 +32,7 @@ export const Page2 = () => {
 			],
 		},
 		{
-			grouping: "/page2/NATURE.png",
+			grouping: "./src/image/page2/NATURE.png",
 			majors: [
 				{ name: "Geology", routing: "geo" },
 				{ name: "Marine Science", routing: "marine" },
@@ -41,7 +40,7 @@ export const Page2 = () => {
 			],
 		},
 		{
-			grouping: "/page2/SIS.png",
+			grouping: "./src/image/page2/SIS.png",
 			majors: [
 				{ name: "BBTech", routing: "bbtech" },
 				{ name: "BISTech", routing: "bistech" },
@@ -53,16 +52,16 @@ export const Page2 = () => {
 		<div className="relative min-h-screen bg-plan">
 			{/* Background images */}
 			<img
-				src="/header.png"
+				src="./src/image/header.png"
 				className="w-full absolute top-0 left-0 z-10 pointer-events-none"
 			/>
 			<img
-				src="/footer.png"
+				src="./src/image/footer.png"
 				className="w-full absolute bottom-0 left-0 z-10 pointer-events-none"
 			/>
 			<div className="flex flex-col items-center relative py-[70px] max-w-md mx-0 my-auto rounded-xl bg-cover bg-top overflow-x-hidden h-dvh w-full overflow-hidden bg-no-repeat">
-				<div className="flex flex-col justify-center items-center mt-16">
-					<img src="/page2/SciCU.png" className="w-100" />
+				<div className="flex flex-col justify-center items-center mt-20">
+					<img src="./src/image/page2/SciCU.png" className="w-100" />
 					<div className="w-full h-120 overflow-y-auto pb-16">
 						{scienceData.map((item) => (
 							<div className="flex flex-col pb-2 px-10 mt-3">

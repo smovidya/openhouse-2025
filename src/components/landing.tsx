@@ -1,5 +1,3 @@
-import React from "react";
-
 const Main = () => {
 	return (
 		<a
@@ -7,14 +5,14 @@ const Main = () => {
 			className="flex flex-col relative justify-center items-center py-6 max-w-md mx-auto my-auto bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md h-dvh"
 		>
 			<div className="flex flex-col items-center gap-2">
-				<img className="h-9 w-auto" src="/assets/logo.webp"></img>
+				<img className="h-9 w-auto" src="./src/image/page1/logo.webp"></img>
 				<h1 className="font-soloisthalf text-[32px] text-center text-[#0E1979]">
 					SCIENCE CHULA <br /> OPEN HOUSE 2025
 				</h1>
 			</div>
 			<div className="flex items-center justify-center ">
-				<img src="assets/date.png" className="w-[65px] h-auto -mr-5"></img>
-				<img src="assets/window.png" className="w-[260px] h-auto"></img>
+				<img src="./src/image/page1/date.png" className="w-[65px] h-auto -mr-5"></img>
+				<img src="./src/image/page1/window.png" className="w-[260px] h-auto"></img>
 			</div>
 			<div className="text-left -ml-10">
 				<p className="font-soloistextra text-[20px] text-left text-[#0E1979] mb-4">

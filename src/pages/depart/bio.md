@@ -5,19 +5,19 @@ title_thai: 'ภาควิชาชีววิทยา'
 ig: 'https://www.instagram.com/biozooscience.chula?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/Bio.Chula'
 web: 'https://www.biology.sc.chula.ac.th'
-head: '/bio4.png'
+head: '../src/image/depart/bio4.png'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
-    src: '/bio1.png'
+    src: '../src/image/depart/bio1.png'
     label: 'ตึกชีววิทยา 1'
     text: 'ตึกชีววิทยา 1 (หลังคาสีส้ม) เป็นตึกเรียนวิทยาศาสตร์หลังแรกของประเทศไทย และยังเป็นตึกเรียนของภาควิชาชีววิทยาอีกด้วย'
   - id: 2
-    src: '/bio2.png'
+    src: '../src/image/depart/bio2.png'
     label: 'ค่ายรับน้องเข้าภาค'
     text: 'ค่ายรับน้องเข้าภาค ณ จังหวัดสระบุรี เป็นค่ายที่จัดขึ้นเพื่อต้อนรับ นิสิตใหม่เข้าสู่ภาควิชาชีววิทยา โดยมีกิจกรรมทั้งเล่น กิน เที่ยว และอื่น ๆ อีกมากมาย'
   - id: 3
-    src: '/bio3.png'
+    src: '../src/image/depart/bio3.png'
     label: 'ค่ายชีววิทยา'
     text: 'ค่ายชีววิทยา ณ จังหวัดน่าน เป็นค่ายอาสาที่นิสิตจะได้ไปให้ความรู้ แก่น้อง ๆ มัธยมปลาย นอกจากนี้ยังมีกิจกรรมสนุก ๆ ให้นิสิตผ่อนคลายระหว่างค่ายอีกด้วย'
 description: '
