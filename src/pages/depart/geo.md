@@ -5,19 +5,19 @@ title_thai: 'ภาควิชาธรณีวิทยา'
 ig: 'https://www.instagram.com/geocu.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
 fac: 'https://www.facebook.com/GeologyChula'
 web: 'https://www.geo.sc.chula.ac.th/'
-head: '../src/image/depart/geo4.png'
+head: '/depart/geo4.png'
 layout: '@/layouts/departLayout.astro'
 images:
   - id: 1
-    src: '../src/image/depart/geo1.png'
+    src: '/depart/geo1.png'
     label: 'การเรียนการสอน '
     text: 'การเรียนในห้องจะมีทั้งภาคบรรยายและปฏิบัติ โดยเน้นการบูรณาการอุปกรณ์และเทคโนโลยี เพื่อต่อยอดการทำงานวิจัยและเพิ่มพูนประสบการณ์แก่ผู้เรียน'
   - id: 2
-    src: '../src/image/depart/geo2.png'
+    src: '/depart/geo2.png'
     label: 'Our Museum'
     text: 'พิพิธภัณฑ์ภาควิชาธรณีวิทยามีการรวบรวมหิน แร่ อัญมณี และฟอสซิลหายากให้เยี่ยมชม เปิดให้บริการทุกวันทำการ โดยมีการจัดกิจกรรม Night at the Museum ในทุกปี'
   - id: 3
-    src: '../src/image/depart/geo3.png'
+    src: '/depart/geo3.png'
     label: 'ออกภาคสนาม'
     text: 'การออกภาคสนามเป็นกิจกรรมที่นิสิตภาควิชาธรณีวิทยา จะได้ลงมือสำรวจจริง ประยุกต์ทฤษฎีกับการใช้อุปกรณ์ และได้ใช้ทักษะต่าง ๆ เพื่อเป็นการเพิ่มประสบการณ์'
 description: 'ธรณีวิทยาที่ไม่ได้มีแค่หิน แต่เป็นการไขคำตอบเกี่ยวกับองค์ประกอบ โครงสร้าง    และกระบวนการตามธรรมชาติของโลกด้วยหลักการทางวิทยาศาสตร์ ศึกษาผ่านหลักฐาน ทั้งซากดึกดำบรรพ์ อัญมณี แร่ หิน ปิโตรเลียม บูรณาการกับเทคโนโลยีและการสำรวจภาคสนาม มุ่งสู่การปรับตัวและพัฒนาอย่างยั่งยืน'

@@ -1,7 +1,103 @@
 ---
-import { Page2 } from "@/components/Page2";
 import Layout from "@/layouts/Layout.astro";
+import { Image } from "astro:assets";
+import phys from "@/image/page2/PHYS.png";
+import bio from "@/image/page2/BIO.png";
+import tech from "@/image/page2/TECH.png";
+import nature from "@/image/page2/NATURE.png";
+import sis from "@/image/page2/SIS.png";
+import header from "@/image/header2.png";
+import footer from "@/image/footer.png";
+import SCiCU from "@/image/page2/SciCU.png";
+const styleMajor =
+		"font-poppins font-bold text-[#0e1979] text-md block text-center mb-2";
+const scienceData = [
+  {
+	grouping: phys,
+    majors: [
+      { name: "Mathematics and Computer Science", routing: "mathcom" },
+      { name: "Chemistry", routing: "chem" },
+      { name: "BSAC", routing: "bsac" },
+      { name: "Physics", routing: "phys" },
+    ],
+  },
+  {
+	grouping: bio,
+    majors: [
+      { name: "Biology", routing: "bio" },
+      { name: "Botany", routing: "bg" },
+      { name: "Biochemistry", routing: "biochem" },
+      { name: "Microbiology", routing: "micro" },
+    ],
+  },
+  {
+	grouping: tech,
+    majors: [
+      { name: "Chemical Technology", routing: "cht" },
+      { name: "Materials Science", routing: "matsci" },
+      { name: "Imaging and Printing Technology", routing: "imprint" },
+      { name: "Food Technology", routing: "foodtech" },
+    ],
+  },
+  {
+	grouping: nature,
+    majors: [
+      { name: "Geology", routing: "geo" },
+      { name: "Marine Science", routing: "marine" },
+      { name: "Environmental Science", routing: "en" },
+    ],
+  },
+  {
+	grouping: sis,
+    majors: [
+      { name: "BBTech", routing: "bbtech" },
+      { name: "BISTech", routing: "bistech" },
+    ],
+  },
+];
 ---
+
 <Layout>
-	<Page2 />
+	<!-- <Page2 /> -->
+	<div class="relative min-h-screen bg-plan">
+		{/* Background images */}
+		<Image
+			src={header}
+			alt={"header"}
+			class="w-full absolute top-0 left-0 z-10 pointer-events-none"
+		/>
+		<Image
+			src={footer}
+			alt={"footer"}
+			class="w-full absolute bottom-0 left-0 z-10 pointer-events-none"
+		/>
+		<div class="flex flex-col items-center relative py-[70px] max-w-md mx-0 my-auto rounded-xl bg-cover bg-top overflow-x-hidden h-dvh w-full overflow-hidden bg-no-repeat">
+			<div class="flex flex-col justify-center items-center mt-20">
+				<Image src={SCiCU} alt={"science chula"} class="w-100" />
+				<div class="w-full h-120 overflow-y-auto pb-16">
+					{scienceData.map((item) => (
+						<div class="flex flex-col pb-2 px-10 mt-3">
+							<Image src={item.grouping} alt={"department"} class="self-center mb-2 px-1" />
+							{item.majors.map((major) => (
+								<div
+									class="flex flex-row items-center px-2"
+								>
+									<a
+										href={`/depart/${major.routing}`}
+										class={`${styleMajor}`}
+									>
+										{major.name}
+									</a>
+									<a
+										href={`/depart/${major.routing}`}
+										class="flex-grow border-b-2 border-[#002144] ml-2 mx-auto"
+									></a>
+								</div>
+							))}
+						</div>
+					))}
+				</div>
+			</div>
+		</div>
+	</div>
 </Layout>
