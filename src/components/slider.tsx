@@ -16,8 +16,9 @@ export default function ImageSlider({ images }: SliderProps) {
 	const activeContent = images.find((item) => item.id === activeTab)?.text;
 
 	return (
-		<div className="relative w-full max-w-md">
-			<div className="flex items-end gap-4 h-56 px-6">
+		<div className="w-full max-w-md justify-center px-2">
+			<div className="relative">
+			<div className="flex items-end gap-4 h-56 px-3">
 				{images.map((item) => (
 					<div
 						key={item.id}
@@ -63,7 +64,9 @@ export default function ImageSlider({ images }: SliderProps) {
 					</div>
 				))}
 			</div>
-			<div className="mx-6 h-[87px] mt-[12px] w-[400px] bg-[#0058b63e] rounded-xl">
+			</div>
+			
+			<div className="flex mx-auto h-[87px] mt-3 w-[95%] bg-[#0058b63e] rounded-xl">
 				<p
 					className="text-sm font-notothai p-2 text-[#0157b6]"
 					dangerouslySetInnerHTML={{ __html: activeContent || "" }}

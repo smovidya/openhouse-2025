@@ -11,26 +11,26 @@ images:
   - id: 1
     src: '/bbtech1.png'
     label: 'BBTECH Rubnong'
-    text: 'BBTECH Rubnong💖: New students meet and bond <br/>
-with seniors through fun games and activities, creating <br/>
+    text: 'BBTECH Rubnong💖: New students meet and bond 
+with seniors through fun games and activities, creating 
 lasting friendships and memories.'
   - id: 2
     src: '/bbtech2.png'
     label: 'BBTECH Sports '
-    text: 'BBTECH Sports in Intergames🏀: An exclusive sports event <br/>
-for international faculties to connect, compete, <br/>
+    text: 'BBTECH Sports in Intergames🏀: An exclusive sports event 
+for international faculties to connect, compete, 
 and make global friends.'
   - id: 3
     src: '/bbtech3.png'
     label: 'BBTech CSR Trip'
-    text: 'BBTech CSR Trip🏡: A trip to suburban areas to help locals, <br/>
-teach kids, promote sustainability, and enjoy fun activities <br/>
+    text: 'BBTech CSR Trip🏡: A trip to suburban areas to help locals, 
+teach kids, promote sustainability, and enjoy fun activities 
 while building bonds.'
 description: '
-BBTech explores diverse realms of biotechnology, <br/>
-encompassing different fields such as animal, plant, <br/>
-microbial, environmental, food, marine, bioinformatics, <br/>
-and biotechnology management by diving deep into <br/>
+BBTech explores diverse realms of biotechnology, 
+encompassing different fields such as animal, plant, 
+microbial, environmental, food, marine, bioinformatics, 
+and biotechnology management by diving deep into 
 cutting-edge technologies.'
 ---
 

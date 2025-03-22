@@ -18,5 +18,6 @@
 }
 
 .bg-plan {
-	background-image: url("/background2.png");
+	background-image: url("/background3.png");
+	background-attachment: fixed;
 }

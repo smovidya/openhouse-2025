@@ -11,24 +11,24 @@ images:
   - id: 1
     src: '/phys1.png'
     label: 'Physics colloquiums '
-    text: 'Weekly physics colloquiums by experts from <br/>
-top universities offer our students opportunities <br/>
-for one-on-one academic discussions on topics <br/>across various fields.'
+    text: 'Weekly physics colloquiums by experts from  
+top universities offer our students opportunities  
+for one-on-one academic discussions on topics  across various fields.'
   - id: 2
     src: '/phys2.png'
     label: 'Fun Lab'
-    text: 'We’ve done the most fun lab in the world. Even though <br/>
-we made it explode and caught fire multiple times, <br/>
+    text: 'We’ve done the most fun lab in the world. Even though  
+we made it explode and caught fire multiple times,  
 we’re still safe.'
   - id: 3
     src: '/phys3.png'
     label: 'Collaborative Learning'
-    text: 'A large enough blackboard for everyone in the class <br/>
+    text: 'A large enough blackboard for everyone in the class  
 to solve problems together! What a golden opportunity!'
 description: '
 ฟิสิกส์คือพื้นฐานของวิทยาศาสตร์ทุกแขนง เราจึงจะศึกษาเกี่ยวกับ
-<br/>ธรรมชาติและปรากฏการณ์ต่าง ๆ ในจักรวาล ซึ่งมีหลากหลายแขนง
-<br/>ตั้งแต่กลศาสตร์ทั่วไป กลศาสตร์ควอนตัม สสารและพลังงาน
-<br/>ไฟฟ้าแม่เหล็ก สัมพันธภาพ ไปจนถึงนอกโลกอย่าง คอสมิก
-<br/>ดาราศาสตร์และจักรวาลวิทยา'
+ ธรรมชาติและปรากฏการณ์ต่าง ๆ ในจักรวาล ซึ่งมีหลากหลายแขนง
+ ตั้งแต่กลศาสตร์ทั่วไป กลศาสตร์ควอนตัม สสารและพลังงาน
+ ไฟฟ้าแม่เหล็ก สัมพันธภาพ ไปจนถึงนอกโลกอย่าง คอสมิก
+ ดาราศาสตร์และจักรวาลวิทยา'
 ---

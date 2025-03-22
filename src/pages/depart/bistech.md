@@ -21,11 +21,11 @@ images:
     label: 'BISTech'
     text: 'The Bachelor of Science Program in Industrial Science and Technology'
 description: '
-BISTech integrates expertise in materials science, <br/>
-food technology, chemical technology, and imaging <br/>
-and printing technology with comprehensive <br/>
-management knowledge to equip future industry <br/>
-leaders with an in-depth understanding of manufacturing <br/>
+BISTech integrates expertise in materials science, 
+food technology, chemical technology, and imaging 
+and printing technology with comprehensive 
+management knowledge to equip future industry 
+leaders with an in-depth understanding of manufacturing 
 technologies and essential communication skills. '
 ---
 
