@@ -1,7 +1,37 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import Landing from "@/components/landing.tsx";
+import { Image } from "astro:assets";
+import logo from "@/image/page1/logo.webp";
+import date from "@/image/page1/date.png";
+import window from "@/image/page1/window.png";
 ---
+
 <Layout>
-	    <Landing />
+  <a
+    href="/faculty"
+    class="flex flex-col relative justify-center items-center py-6 max-w-md mx-auto my-auto bg-gradient-to-b from-[#e6e6e6] via-[#ffffff] to-[#e6e6e6] rounded-xl shadow-md h-dvh"
+  >
+    <div class="flex flex-col items-center gap-2">
+      <Image class="h-9 w-auto" src={logo} alt={"logo"} />
+      <h1 class="font-soloisthalf text-[32px] text-center text-[#0E1979]">
+        SCIENCE CHULA <br /> OPEN HOUSE 2025
+      </h1>
+    </div>
+    <div class="flex items-center justify-center">
+      <Image src={date} alt={"date"} class="w-[65px] h-auto -mr-5" />
+      <Image src={window} alt={"window"} class="w-[260px] h-auto" />
+    </div>
+    <div class="text-left -ml-10">
+      <p class="font-soloistextra text-[20px] text-left text-[#0E1979] mb-4">
+        OUR CONTACT
+      </p>
+      <p class="font-poppins italic text-[#0E1979] text-[12px]">
+        <span class="font-bold">INSTAGRAM :</span> SCICHULAOPENHOUSE
+        <br />
+        <span class="font-bold">FACEBOOK :</span> SCIENCE CHULA OPEN HOUSE 2025
+        <br />
+        <span class="font-bold">TIKTOK :</span> SCICHULAOPENHOUSE
+      </p>
+    </div>
+  </a>
 </Layout>
