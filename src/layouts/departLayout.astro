@@ -1,6 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import Slider from "@/components/slider";
+import Slider from "@/components/Slider.astro";
 import { Image } from "astro:assets";
 import header from "@/image/header2.png";
 import footer from "@/image/footer.png";
@@ -70,7 +70,7 @@ const { frontmatter } = Astro.props;
       </div>
 
       <div class="w-full">
-        <Slider images={frontmatter.images} client:load />
+        <Slider images={frontmatter.images} />
       </div>
 
       <div class="flex flex-row ml-2 mt-3 mb-28 justify-between w-[93%]">
